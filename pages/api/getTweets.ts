@@ -3,13 +3,12 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 import { sanityClient } from '../../sanity'
 
 type Data = {
-  tweets: Tweet[]
+  tweets: string
 }
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  const data = await fetchData()
-  res.status(200).json(data)
+  res.status(200).json({ tweets: 'yes i hear you' })
 }
