@@ -2,13 +2,6 @@
 
 A full-featured Twitter clone built with Next.js, Tailwind CSS, TypeScript, and Sanity CMS.
 
-## Features
-
-- Real-time updates with WebSockets
-- User authentication and authorization with JSON Web Tokens
-- Dynamic, responsive user interface with Tailwind CSS
-- Content management system with Sanity CMS
-
 ## Getting Started
 
 ### Prerequisites
